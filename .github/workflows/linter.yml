@@ -54,5 +54,5 @@ jobs:
           DEFAULT_BRANCH: develop
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_CSS: true
-          VALIDATE_EDITORCONFIG: true
+          LINTER_RULES_PATH: /
           CSS_FILE_NAME: .stylelintrc
