@@ -54,3 +54,4 @@ jobs:
           DEFAULT_BRANCH: develop
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_CSS: true
+          VALIDATE_EDITORCONFIG: true
