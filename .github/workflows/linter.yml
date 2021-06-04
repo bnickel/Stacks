@@ -41,8 +41,8 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
         with:
-          # Full git history is needed to get a proper list of changed files within `super-linter`
-          fetch-depth: 0
+          # Don't download the whole repo, but look far enough back that we can find `develop`
+          fetch-depth: 50
 
       ################################
       # Run Linter against code base #
